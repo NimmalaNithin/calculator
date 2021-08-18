@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <p class="name">Nithin</p>
+        <div class="screen">
+            <h3 id="screen-id"></h3>
+        </div>
+
+        <div class="keys">
+            <button id="ac" onclick="ac()">AC</button>
+            <button id="back" onclick="back()"><</button>
+            <button id="by" onclick="operator('/')">/</button>
+            <button id="seven" onclick="number(7)">7</button>
+            <button id="eight" onclick="number(8)">8</button>
+            <button id="nine" onclick="number(9)">9</button>
+            <button id="into" onclick="operator('*')">*</button>
+            <button id="four" onclick="number(4)">4</button>
+            <button id="five" onclick="number(5)">5</button>
+            <button id="six" onclick="number(6)">6</button>
+            <button id="minus" onclick="operator('-')">-</button>
+            <button id="one" onclick="number(1)">1</button>
+            <button id="two" onclick="number(2)">2</button>
+            <button id="three" onclick="number(3)">3</button>
+            <button id="plus" onclick="operator('+')">+</button>
+            <button id="two-zero" onclick="number('00')">00</button>
+            <button id="zero" onclick="number(0)">0</button>
+            <button id="equal" onclick="equals()">=</button>
+        </div>
+
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
